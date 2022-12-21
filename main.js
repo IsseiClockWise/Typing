@@ -8,7 +8,7 @@ window.addEventListener("keydown", push_Keydown);
 function push_Keydown(event){
 
 	let keyCode = event.key;
-	if (Q_l == Q_l-Q_i){
+	if (Q_l == Q_l-Q_i){ // Q_lとQ_iが0の時
 		document.getElementById("start").innerHTML = Q[Q_No].substring(Q_i, Q_l); //問題を書き出す
 	}
 

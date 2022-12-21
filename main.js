@@ -6,7 +6,6 @@ let Q_l = Q[Q_No].length;//計算用の文字の長さ
 
 window.addEventListener("keydown", push_Keydown);
 function push_Keydown(event){
-
 	let keyCode = event.key;
 	if (Q_l == Q_l-Q_i){ // Q_lとQ_iが0の時
 		document.getElementById("start").innerHTML = Q[Q_No].substring(Q_i, Q_l); //問題を書き出す
